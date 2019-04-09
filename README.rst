@@ -14,7 +14,7 @@ I am not happy with salt.
 http://sotagtrends.com/?tags=[fabric,ansible,salt-stack]
 
 .. image:: sotagtrend-fabric-ansible-saltstack.png
-  :width: 400
+  :width: 200
 
 I am unsure if configuration management with yaml and jinja is a good idea.
 
