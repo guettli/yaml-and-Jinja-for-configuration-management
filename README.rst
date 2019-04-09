@@ -20,3 +20,16 @@ I am unsure if configuration management with yaml and jinja is a good idea.
 
 You can't debug it like ordinary code.
 
+Salt swallows exceptions. This wasts my time. I am starting to hate it.
+
+I want to move from salt to an other solution. 
+
+Ansible seems common these days.
+
+I love python.
+
+If I compare python with yaml+jinja, then python wins.
+
+Back to fabric?
+
+I have no clue
