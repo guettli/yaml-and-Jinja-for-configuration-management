@@ -32,4 +32,12 @@ If I compare python with yaml+jinja, then python wins.
 
 Back to fabric?
 
-I have no clue
+Fabric does not have the state based feature: Do x, only if x was not done yet.
+
+I like calling configuration management twice: First time a lot of things get done,
+and on the second call I see something like "all states are fine, nothing was changed,
+because everything was already the way it should be".
+
+I have no clue.
+
+Feedback is welcome.
