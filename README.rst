@@ -47,3 +47,6 @@ http://sotagtrends.com/?tags=[fabric,salt-stack,ansible,python]
 
 .. image:: sotagtrend-fabric-ansible-saltstack-python.png
   :width: 200
+
+
+Question: https://softwarerecs.stackexchange.com/questions/57922/configuration-management-based-on-python Configuration management based on Python
