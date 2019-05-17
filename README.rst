@@ -50,3 +50,5 @@ http://sotagtrends.com/?tags=[fabric,salt-stack,ansible,python]
 
 
 Question: https://softwarerecs.stackexchange.com/questions/57922/configuration-management-based-on-python Configuration management based on Python
+
+One reason I don't like YAML: There are way to many ways to write mult-line strings. According to the up-votes a lot of other human beings have the same issue. Too many choices, too much confusion, no no-brainer. Don't blame the people, blame the context: https://stackoverflow.com/questions/3790454/in-yaml-how-do-i-break-a-string-over-multiple-lines
