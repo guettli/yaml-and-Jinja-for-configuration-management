@@ -53,3 +53,7 @@ Question: https://softwarerecs.stackexchange.com/questions/57922/configuration-m
 
 One reason I don't like YAML: There are way to many ways to write mult-line strings. According to the up-votes a lot of other human beings have the same issue. Too many choices, too much confusion, no no-brainer. Don't blame the people, blame the context: https://stackoverflow.com/questions/3790454/in-yaml-how-do-i-break-a-string-over-multiple-lines
 Yes, there are several ways to write a multi-line string in python. But it is very much simpler.
+
+
+After thinking about this again, I know what I am missing: I am missing a stacktrace if somethings goes wrong.
+In SaltStack all tasks which should get done are a long flat list (after sls files an jinja got evaluated). A single task can have two different relations to the previous task: I can be just the next item in a list, or it can be sub-task. This information gets lost. A stacktrace gives me a very good road map. I am missing this road map in Salt (and I guess (but don't know) other yaml and jinja based configuration management tools are the same).
