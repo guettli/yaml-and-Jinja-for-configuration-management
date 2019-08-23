@@ -9,7 +9,7 @@ fabric:
 
 In 2014 we switched from farbric to salt-stack
 
-I am not happy with salt. 
+I am not happy with salt-stack
 
 http://sotagtrends.com/?tags=[fabric,ansible,salt-stack]
 
@@ -57,3 +57,5 @@ Yes, there are several ways to write a multi-line string in python. But it is ve
 
 After thinking about this again, I know what I am missing: I am missing a stacktrace if somethings goes wrong.
 In SaltStack all tasks which should get done are a long flat list (after sls files an jinja got evaluated). A single task can have two different relations to the previous task: I can be just the next item in a list, or it can be sub-task. This information gets lost. A stacktrace gives me a very good road map. I am missing this road map in Salt (and I guess (but don't know) other yaml and jinja based configuration management tools are the same).
+
+2019-08-23 today it is a nightmare again. If you know the programming language python, then using SLS is way too complicated. At least for me. Up to now we use salt-stack. Maybe ansible is better. But even there I ask myself: why? A modern IDE like PyCharm is like flying. Overambitious people could say: Yes, lets's implement auto-completion and other fancy stuff for SLS files ..... but: Why? Why not keep it simple? With Python I can declare a module-level variable and import this variable whereever I want to. This somehow is possible with yaml+jinja, too, but it is not simple, not nice, not easy. Grrrrr
