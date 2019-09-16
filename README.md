@@ -103,7 +103,7 @@ one method of a module, not every method of this module.
 I wrote a custom module in python which gets used in the jinja+yaml mix.
 
 I get this traceback. In most cases I love tracebacks, because they show me the root of the 
-error. But in this case I see nothing. The lines of my code are not visible. Gggggggggr
+error. But in this case I see nothing. The lines of my code are not visible. This wasts valuable time. Gggggggggr
 
 ```
 [ERROR   ] Rendering exception occurred
