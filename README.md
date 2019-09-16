@@ -95,3 +95,22 @@ Up to now I have no clue how to do this in salt-stack. I could use
 "include" but this would include and **execute** all states from
 root/big.sls. That's not what I want. Compared to python: I want to call
 one method of a module, not every method of this module.
+
+
+
+2019-09-16 this page is getting my "config management with yaml and jinja barf bag"
+
+I wrote a custom module in python which gets used in the jinja+yaml mix.
+
+I get this traceback. In most cases I love tracebacks, because they show me the root of the 
+error. But in this case I see nothing. The lines of my code are not visible. Gggggggggr
+
+```
+[ERROR   ] Rendering exception occurred
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/salt/utils/templates.py", line 169, in render_tmpl
+    output = render_str(tmplstr, context, tmplpath)
+  File "/usr/lib/python2.7/site-packages/salt/utils/templates.py", line 402, in render_jinja_tmpl
+    buf=tmplstr)
+SaltRenderError: Jinja variable 'unicode object' has no attribute 'foobar'
+```
