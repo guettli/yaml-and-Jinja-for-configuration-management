@@ -114,3 +114,10 @@ Traceback (most recent call last):
     buf=tmplstr)
 SaltRenderError: Jinja variable 'unicode object' has no attribute 'foobar'
 ```
+# Alternativ: HCL (Hashicorp Configuration Language)
+
+Terraform is getting more and more popular. They use a HCL which is basically JSON with comments:
+
+https://www.terraform.io/docs/configuration/syntax.html
+
+Looks better than YAML to me (my personal opinion)
