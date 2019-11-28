@@ -13,7 +13,7 @@ In 2014 we switched from farbric to salt-stack
 
 I am not happy with salt-stack
 
-<http://sotagtrends.com/?tags>=[fabric,ansible,salt-stack]
+http://sotagtrends.com/?tags=ansible+salt-stack+fabric
 
 ![image](sotagtrend-fabric-ansible-saltstack.png)
 
