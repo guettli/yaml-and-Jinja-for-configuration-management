@@ -114,6 +114,18 @@ Traceback (most recent call last):
     buf=tmplstr)
 SaltRenderError: Jinja variable 'unicode object' has no attribute 'foobar'
 ```
+
+2019-12-10 today I get a meaningless error message again:
+
+> Rendering SLS 'base:foo.absent' failed: Jinja variable 'str object' has no attribute 'stage'
+
+Of course I will be able to fix it. But I don't like this. I prefer python stacktraces, because they
+point me to the right direction. This YAML+Jinja feels like the clever idea from the past: XSLT. Since xml is everywhere,
+we need to create a programming language with it. And to confuse everybody we say that xslt is not a programming language it is... I don't remember the matching term, and it does not matter. I don't like YAML+Jinja. I like Python and data in database systems. End of message.
+
+
+
+
 # Alternativ: HCL (Hashicorp Configuration Language)
 
 Terraform is getting more and more popular. They use a HCL which is basically JSON with comments:
