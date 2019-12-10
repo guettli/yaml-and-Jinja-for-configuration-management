@@ -49,7 +49,7 @@ I have no clue.
 
 Feedback is welcome.
 
-<http://sotagtrends.com/?tags>=[fabric,salt-stack,ansible,python]
+<http://sotagtrends.com/?tags=fabric+salt-stack+ansible+python>
 
 ![image](sotagtrend-fabric-ansible-saltstack-python.png)
 
