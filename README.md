@@ -88,12 +88,12 @@ I can declare a module-level variable and import this variable whereever
 I want to. This somehow is possible with yaml+jinja, too, but it is not
 simple, not nice, not easy. Grrrrr
 
-Example: I have a sls file foo/bar.sls. Since running all states takes
+Example: I have a sls file foo/bar.sls, which gets included in root/big.sls.
+Since running all states takes
 too long, I would like to call only foo/bar.sls. This is possible. But
-one simple state from root/big.sls is needed from a different sls file.
-Up to now I have no clue how to do this in salt-stack. I could use
-"include" but this would include and **execute** all states from
-root/big.sls. That's not what I want. Compared to python: I want to call
+one simple state from other/blu.sls is needed. Up to now I have no clue how to do this in salt-stack.
+I could use "include" but this would include and **execute** all states. 
+That's not what I want. Compared to python: I want to call
 one method of a module, not every method of this module.
 
 
