@@ -25,11 +25,11 @@ idea.
 
 You can't debug it like ordinary code.
 
-Salt swallows exceptions. This wasts my time. I am starting to hate it.
+Salt swallows exceptions. This wastes my time. I am starting to hate it.
 
 I want to move from salt to an other solution.
 
-Ansible seems common these days.
+Ansible or terraform seem common these days.
 
 I love python.
 
@@ -133,3 +133,18 @@ Terraform is getting more and more popular. They use a HCL which is basically JS
 https://www.terraform.io/docs/configuration/syntax.html
 
 Looks better than YAML to me (my personal opinion)
+
+# April 2020: back to imperative makes
+
+Declarative vs imperative configuration management?
+
+Declarative is the new and theoretical better approach.
+
+Impertative is the old and pragmatic approach.
+
+Declarative is great for updates: You define your desired result and some magic
+engine configures your servers according to your wish.
+
+But today "servers" get used less often. You use containers and containers don't get updated.
+
+I think back to imperative makes sense.
