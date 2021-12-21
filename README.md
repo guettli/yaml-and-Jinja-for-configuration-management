@@ -134,7 +134,7 @@ https://www.terraform.io/docs/configuration/syntax.html
 
 Looks better than YAML to me (my personal opinion)
 
-# April 2020: back to imperative makes
+# April 2020: back to imperative
 
 Declarative vs imperative configuration management?
 
@@ -148,3 +148,13 @@ engine configures your servers according to your wish.
 But today "servers" get used less often. You use containers and containers don't get updated.
 
 I think back to imperative makes sense.
+
+# December 2021: Starlak
+
+By chance I came across [Starlak](https://github.com/bazelbuild/starlark). A programming language for configuration. Created by google
+for their build-system bazel.
+
+Looks cool. Looks like Python.
+
+
+
