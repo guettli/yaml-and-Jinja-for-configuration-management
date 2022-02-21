@@ -161,3 +161,6 @@ Looks cool. Looks like Python.
 # February 2022
 
 I am learning Kubernetes. This means I need to embrace YAML. Kubernetes is cool. I stop looking for an alternative.
+
+Kubernetes makes Configuration Management less important.
+
