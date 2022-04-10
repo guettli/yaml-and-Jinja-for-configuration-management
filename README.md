@@ -1,6 +1,8 @@
 Yaml and Jinja for configuration management
 ===========================================
 
+outdated text. See [February 2022](february-2022)
+
 In 2013 we switched from shell scripts to fabric to do configuration
 management.
 
