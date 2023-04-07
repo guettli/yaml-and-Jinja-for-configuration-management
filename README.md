@@ -1,7 +1,9 @@
 Yaml and Jinja for configuration management
 ===========================================
 
-outdated text. See [February 2022](#february-2022)
+Text at the top is outdated.
+Latest notes are at the bottom
+
 
 In 2013 we switched from shell scripts to fabric to do configuration
 management.
@@ -165,4 +167,20 @@ Looks cool. Looks like Python.
 I am learning Kubernetes. This means I need to embrace YAML. Kubernetes is cool. I stop looking for an alternative.
 
 Kubernetes makes Configuration Management less important.
+
+# April 2023
+
+Yaml is almost everywhere. Especially if you use
+Kubernetes.
+
+Yaml is better than XML, INI, JSON.
+
+But can you validate it?
+
+Do you get autocomplete in the IDE?
+
+CUE looks promising: 
+
+I like this introduction 
+https://docs.dagger.io/sdk/cue/151357/what-is-cue/
 
